@@ -1,0 +1,548 @@
+/* ********RESET******** */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+}
+
+nav > ul , .lista-reset {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+address {
+    font-style: normal;
+}
+
+textarea {
+    resize: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* ***********FUENTES*********** */
+body {
+    font-family: 'Syne Tactile', cursive;
+}
+
+h1, h3, nav > a, figure {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-size: 3.9375rem;
+    color: #060930;
+    text-shadow: 1px 1px 0px darkred;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 2.8125rem;
+    color: #060930;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #060930;
+    padding-bottom: 32px;
+}
+
+h3 {
+    font-size: 2.1875rem;
+}
+
+nav > a {
+    font-size: 1.5625rem;
+}
+
+nav ul a {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+section {
+    font-size: 1.25rem;
+}
+
+.fondo-color h2 {
+    color: white;
+}
+
+
+/* ***********FORMULARIOS*********** */
+#FormularioContacto {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #060930;
+    border-radius: 5px;
+}
+
+#FormularioContacto input,
+#FormularioContacto textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: inherit;
+    font-size: 20px;
+    border-width: 0;
+    border-bottom: 3px solid #060930;
+    background-color: #efefef;
+}
+
+#FormularioContacto input[type=submit] {
+    background-color: #060930;
+    color: white;
+    text-transform: uppercase;
+    border-width: 0;
+    border-radius: 3px;
+    padding: 16px;
+}
+
+#FormularioContacto input:focus:required,
+#FormularioContacto textarea:focus:required {
+    background-color: rgba(255,0,0,0.3);
+    
+}
+
+#FormularioContacto input:focus:valid,
+#FormularioContacto textarea:focus:valid {
+    background-color: rgba(0,255,0,0.3);
+    
+}
+
+/* ***********SKIN*********** */
+
+body {
+    color: dimgrey;
+}
+
+.fondo-color {
+    background-color: #060930;
+    color: white;
+}
+
+.fondo-claro {
+    background-color: #efefef;
+}
+
+.fondo-oscuro {
+    background-color: darkred;
+    color: white;
+}
+
+.fondo-portada {
+    background-image:
+        linear-gradient(rgba(255, 0, 0, 0.2), rgba(255, 255, 255, 1)),
+        url(../imagenes/fondo_portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+.fondo-mozaico {
+    background-color: #efefef;
+    background-repeat: repeat;
+    background-size: 100px;
+    background-position: center center;
+}
+
+/* enlaces */
+
+a {
+    color: #060930;
+}
+
+.fondo-oscuro a {
+    color: azure;
+}
+
+.link-redes a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #060930;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+
+/* efectos */
+a:hover {
+    color: darkred;
+}
+
+.fondo-oscuro a:hover {
+    color: white;
+}
+
+a:active {
+    background-color: #060930;
+    color: white;
+}
+
+.menu a {
+    color: #ffffff;
+}
+
+.menu ul a {
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: all linear .3s;
+}
+
+.menu ul a:hover {
+    background-color: rgba(112, 110, 110, 0.37);
+}
+
+.logo {
+    background-image: url(../imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center left;
+    padding-left: 28px;
+    text-shadow: 1px 1px 0px darkred;
+}
+
+/* otros elementos */
+
+.marco-imagen {
+    background-color: white;
+    border: 10px solid #efefef;
+
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.portada p {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+figure img {
+    width: 400px;
+}
+
+.destacado {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+
+
+.efecto-subrrayar {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.efecto-subrrayar:hover {
+    background-size: 100% 2px;
+}
+
+
+.titulo {
+    transform: skew(-10deg) rotate(-5deg) scale(1);
+    transition: transform ease-in 1s;
+}
+
+.titulo:hover {
+    transform: skew(-10deg) rotate(0deg) scale(1.2);
+    transition-duration: .3s;
+}
+
+.producto .efecto { 
+    position: absolute;
+    top:0; right:0;bottom:0; left:0;    
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:32px;  
+    opacity: 0;
+    transform: scale(0);
+    transition: all ease-out .3s;
+}
+
+.pivot1{
+    transform-origin: left top;
+}
+.pivot2{
+    transform-origin: left bottom;
+}
+.pivot3{
+    transform-origin: right top;
+}
+.pivot4{
+    transform-origin: right bottom;
+}
+
+.producto:hover .efecto {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* ***********LAYOUT*********** */
+
+.portada {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+section {
+    padding: 50px 10px;
+}
+
+.contenedor {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.pie {
+    padding: 50px 0;
+}
+
+.lista-horizontal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-horizontal li {
+    margin: 0 5px;
+}
+
+.menu {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Galeria .producto {
+    width: 100%;
+}
+
+
+.producto {
+    line-height: 0;
+}
+
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+
+.producto a {
+    display: block;
+    margin: 5px;
+    position: relative;
+}
+
+
+.producto .destacado {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    line-height: normal;
+}
+
+.lista-horizontal.link-redes {
+    justify-content: center;
+}
+
+.lista-horizontal.link-redes li {
+    margin: 0 20px;
+}
+
+figure {
+    max-width: 400px;
+    overflow: hidden;
+}
+
+figure p {
+    margin: 16px;
+}
+
+#Mapa {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+}
+
+address {
+    width: 100%;
+}
+
+address h3 {
+    margin-bottom: 8px;
+}
+
+address p {
+    margin-top: 0;
+}
+
+.agrupa-columnas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.agrupa-columnas > div {
+    padding:15px;
+}
+
+
+.boton-arriba {
+    float: right;
+}
+
+
+
+
+
+@media (min-width:480px) {
+    /* 480px en adelante */
+
+    #ElMapa,
+    #FormularioContacto {
+        width: 420px;
+    }
+    
+
+    
+}
+
+@media (min-width:768px) {
+    /* tablet */
+
+    h1 {
+        font-size: 5.9375rem;
+    }
+
+    .portada {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .pie,
+    section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .lista-horizontal {
+        flex-direction: row;
+    }
+
+    #Galeria .producto {
+        width: 50%;
+    }
+
+    figure {
+        float: right;
+    }
+
+    #FormularioContacto {
+        width: 360px;
+    }
+    
+    .columna-mitad{
+        width:50%;
+    }
+    
+    .orden-medianas-ultimo {
+        order: 2;
+    }
+    
+
+}
+
+@media (min-width:1024px) {
+    /* escritorio */
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99;
+        flex-direction: row;
+    }
+
+    .boton-arriba {
+        display: none;
+    }
+
+    .portada {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .pie,
+    section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #Galeria .producto {
+        width: 33%;
+    }
+
+    address,
+    #FormularioContacto {
+        width: 500px;
+    }
+
+    .columna-lg-uncuarto {
+        width:25%;
+    }
+    
+    #Servicios .agrupa-columnas {
+        align-items: flex-start ;
+    }
+    
+    .agrupa-columnas {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    
+
+}
