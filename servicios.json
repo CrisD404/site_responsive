@@ -1,0 +1,22 @@
+{
+    "servicios":[
+        {
+            "titulo":"Espectaculos",
+            "descripcion":"Siempre intentamos traer invitados especiales y organizar increibles espectaculos, desde algún famoso comediante, o mismo una banda de musica que nos motive toda la noche con increibles canciones."
+        },
+        {
+            "titulo":"Barra libre",
+            "descripcion":"Habilitamos la barra libre en ocasiones especiales y a un precio increiblemente accesible, por ejemplo todos los años festejamos el cumpleaños de mi padre Martín y organizamos barra libre, espectaculo y sorpresas."
+        },
+        {
+            "titulo":"Eventos",
+            "descripcion":"Organizamos tus eventos: matrimonios, cumpleaños, despedidas de solteros, primeras comuniones, amigos secretos, fechas especiales y actividades empresariales."
+        },
+        {
+            "titulo":"Cine foro",
+            "descripcion":"Nuestro evento favorito, lo hacemos todos los viernes 19:00hs con tematicas diferentes ¿por que no vienes a disfrutar este increible evento con nosotros?"
+
+        }
+    ]
+
+}
